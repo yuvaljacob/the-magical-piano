@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Magical Piano</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="piano"> 
+             <h1>The Magical Piano</h1>   
+              <div id="clock"></div>
+              <br><br><br>  
+            <!--black keys-->    
+            <div class="black-keys">
+                <div class="black-key" id="Cs1"></div>
+                <div class="black-key" id="Ds1"></div>
+                <div class="black-key" id="Fs1"></div>
+                <div class="black-key" id="Gs1"></div>
+                <div class="black-key" id="As1"></div>
+                <div class="black-key" id="Cs2"></div>
+                <div class="black-key" id="Ds2"></div>
+                <div class="black-key" id="Fs2"></div>
+                <div class="black-key" id="Gs2"></div>
+                <div class="black-key" id="As2"></div>
+            </div>
+            <br>
+            
+            <!--white keys-->    
+            <div class="white-keys">
+                <div class="white-key" id="C1"></div>
+                <div class="white-key" id="D1"></div>
+                <div class="white-key" id="E1"></div>
+                <div class="white-key" id="F1"></div>
+                <div class="white-key" id="G1"></div>
+                <div class="white-key" id="A1"></div>
+                <div class="white-key" id="B1"></div>
+                <div class="white-key" id="C2"></div>
+                <div class="white-key" id="D2"></div>
+                <div class="white-key" id="E2"></div>
+                <div class="white-key" id="F2"></div>
+                <div class="white-key" id="G2"></div>
+                <div class="white-key" id="A2"></div>
+                <div class="white-key" id="B2"></div>
+                <div class="white-key" id="C3"></div>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <h1 id="current-note"><h1>
+        </div>
+        <h1 id="sequence-mode">Click here to activate Sequence Mode</h1>
+        <br>
+        <div class="controls-container">
+            <span class="controls" id="record">RECORD</span>
+            <span class="controls" id="play">PLAY</span>
+        </div>
+        <br><br><br>
+        <div class="scales-container">    
+            <span class="scales" id="chord"></span>
+            <span class="scales" id="scale"></span>
+        </div>
+        <br><br><br>
+        <div class="modes-container">    
+            <span class="modes" id="major"></span>
+            <span class="modes" id="minor"></span>
+        </div>
+        <br><br><br>
+        <div class="features-container">    
+            <span class="features" id="backwards"></span>
+            <span class="features" id="arpeggio"></span>
+        </div>
+        <script type="text/javascript" src="./scripts/utils.js"></script>
+        <script type="text/javascript" src="./scripts/script.js"></script>
+    </body>
+</html>

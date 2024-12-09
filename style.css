@@ -1,0 +1,76 @@
+.piano {
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    height: 400px;
+    border: 1.5px solid black;
+    padding: 10px;
+    margin: auto;
+}
+
+.white-keys {
+    position: absolute;
+    left: 175.014px;
+    z-index: 0;
+}
+
+.black-keys {
+    position: absolute;
+    left: 223px;
+    z-index: 1;
+}
+
+.black-key {
+    display: inline-block;
+    background-color: black;
+    margin-right: 32.5px;
+    width: 27px;
+    height: 79px;
+    padding: 0px;
+}
+
+.white-key {
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    width: 59px;
+    height: 165px;
+}
+#test {
+    height: 165px;
+    margin: 0;
+    padding: 0;
+}
+
+#Ds1,#As1,#Ds2,#As2 {
+    margin-right: 95px;
+}
+
+body {
+    color: white;
+    background-color: #2B2837;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sequence-mode {
+    background-color: red;
+    text-align: center;
+}
+
+#record {
+    background-color: red;
+    text-align: center;
+}
+
+#play {
+    background-color: green;
+    text-align: center;
+}
+
+.modes-container, .scales-container, .features-container, .controls-container {
+    text-align: center;
+}
+
+.modes, .scales, .features, .controls {
+    padding: 10px;
+    margin: 15px;
+}
