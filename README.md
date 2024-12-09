@@ -1,5 +1,10 @@
 # the-magical-piano
-A magical piano which plays notes, chords, scales and has the ability to record, created for training and learning purposes
+A magical piano which plays notes, chords, scales and has the ability to record, created for training and learning purposes.
+
+## Installation
+
+Just download the entire repo and run index.html
+Enjoy!
 
 ## License
 
