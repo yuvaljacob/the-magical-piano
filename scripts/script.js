@@ -168,7 +168,7 @@ function paintBack(note, isRoot = false) {
     }
 }
 
-let clockRun = () => { // Rewrite this shit
+let clockRun = () => { // Inefficient, needs re-writing
     document.getElementById('clock').innerHTML = ('Recording time: ' + elapsedRecordingTime.toFixed(2) + ' seconds');
     elapsedRecordingTime += recordIncrement
     setTimeout(clockRun, 100)
