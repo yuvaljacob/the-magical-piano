@@ -3,7 +3,7 @@ A magical piano which plays notes, chords, scales and has the ability to record,
 
 ## Installation
 
-Just download the entire repo and run index.html
+Just download the entire repo and run index.html in a web browser.
 Enjoy!
 
 ## License
